@@ -1,0 +1,14 @@
+.body {
+  background-image: url("./images/flower.jpg ");
+  background-size: contain;
+}
+.container {
+  text-align: center;
+}
+
+.name {
+  color: red;
+}
+.address {
+  color: teal;
+}
