@@ -1,11 +1,27 @@
-.body {
+body {
+  margin: 0px;
+}
+.panel-container {
+  height: 100vh;
+  display: flex;
+}
+.left-panel {
+  flex: 3;
+  color: white;
+  background-color: teal;
+  padding: 20px;
+}
+.right-panel {
+  color: white;
+  /* background-color: darkgreen; */
   background-image: url("./images/flower.jpg ");
   background-size: contain;
+  flex: 2;
+  padding: 20px;
 }
 .container {
   text-align: center;
 }
-
 .name {
   color: red;
 }
